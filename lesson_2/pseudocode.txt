@@ -1,0 +1,21 @@
+method 1 = return the sum of 2 integers
+
+ask user for 2 numbers
+add the 2 numbers
+display the result
+
+method 2 = takes an array of strings and concatenates them into one string
+
+given an array
+  go through each element from first to last
+  put each element into a string
+
+display the new string
+
+
+method 3 = take an array of integers, display every other element
+
+given an array
+if element is even, skip
+if element is odd, put into new array
+display the new array
