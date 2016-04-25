@@ -78,9 +78,9 @@ loop do
 
   #  score(choice, computer_choice)
   if win?(choice, computer_choice)
-    player_score = player_score + 1
+    player_score += 1
   elsif win?(computer_choice, choice)
-    pc_score = pc_score + 1
+    pc_score += 1
   end
   prompt("You: #{player_score} Computer: #{pc_score}")
 
